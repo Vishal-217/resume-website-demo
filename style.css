@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: poppins;
+    background: #2a9d8f;
+    color: #000000;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    background: #fff;
+    border: 2px solid #000;
+    box-shadow: 5px 5px 0 #000;
+    flex-wrap: wrap;
+  }
+  
+  .left-section, .right-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .left-section {
+    background-color:#fb85006e;
+    border-right: 2px solid #000;
+  }
+  
+  .profile-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 2px solid #000;
+  }
+  
+  .about-box {
+    margin-bottom: 30px;
+  }
+  
+  .skills, .hobbies {
+    margin-bottom: 20px;
+  }
+  
+  .skills .tag, .tag {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 5px 5px 0 0;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+  
+  .orange { background: #003566; }
+  .red { background: #003566; }
+  .pink { background: #003566; }
+  
+  .right-section .header {
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 2em;
+    color: #1b1b1b;
+  }
+  
+  .tagline {
+    font-style: italic;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .contact, .experience, .education {
+    margin-bottom: 25px;
+  }
+  
+  h2, h3 {
+    margin-bottom: 10px;
+    color: #111;
+  }
+  
